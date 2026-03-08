@@ -1,0 +1,3 @@
+## 2025-03-08 - [Documentation-Centric Performance Strategy]
+**Learning:** In repositories where the primary value is linked external data (like a Google Spreadsheet), performance optimization should focus on "time-to-content." Users are often forced to load heavy web applications (like Google Sheets) just to see basic information.
+**Action:** Implement "Quick Previews" via Markdown tables to provide instant data access. Offer "Published Web Views" (pubhtml) which serve lightweight HTML (~9KB) compared to full editors (~320KB). Provide direct export links (CSV/PDF) for efficient data ingestion.
