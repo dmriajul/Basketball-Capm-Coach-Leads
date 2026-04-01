@@ -1,0 +1,3 @@
+## 2026-03-31 - [Enhanced Accessibility and Navigability in Documentation-Centric Repos]
+**Learning:** For repositories focused primarily on documentation (like lead lists), accessibility and discoverability are key UX drivers. Using `<abbr>` tags for industry-specific acronyms and explicitly mentioning browser-native search shortcuts (`Ctrl + F`) improves both expert and non-expert user experience.
+**Action:** Always include `<abbr>` tags for industry acronyms and use `<kbd>` tags for common keyboard shortcut hints in documentation.
