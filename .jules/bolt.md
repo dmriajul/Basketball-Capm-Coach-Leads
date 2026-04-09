@@ -1,0 +1,3 @@
+## 2026-04-14 - Optimized leads processing throughput with consolidated memoization and flattened unpacking
+**Learning:** Consolidating multiple cleaning/normalization steps into a single memoized function significantly reduces function call overhead and multiple dictionary lookups in the `lru_cache`. Additionally, flattening the return values of helper functions in hot loops avoids the overhead of nested tuple unpacking. Direct `.lower()` calls can be faster than memoized versions for short, simple strings due to the overhead of the cache mechanism itself.
+**Action:** Always look for opportunities to fuse related memoized operations and flatten return structures in performance-critical loops. Benchmark `lru_cache` against direct operations for simple transformations.
