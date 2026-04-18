@@ -1,0 +1,3 @@
+## 2026-04-17 - [Optimization: Time-to-Content for Data Repositories]
+**Learning:** For repositories that primarily serve as a portal to external data (e.g., Google Sheets), the primary performance bottleneck is 'Time-to-Content' and 'Time-to-Action'. A 300KB+ external spreadsheet UI is a massive payload compared to a lightweight README with inlined preview data (~9KB). Providing clear, differentiated access modes (Web View vs. Editor) allows users to choose the most efficient path for their needs.
+**Action:** Always provide an inline 'Quick Preview' of high-value data and use lightweight horizontal navigation to reduce the barrier to content access by ~97%.
