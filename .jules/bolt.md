@@ -1,0 +1,3 @@
+## 2026-04-21 - Zero-latency Data Preview in Documentation-only Repositories
+**Learning:** In repositories where the `README.md` acts as the primary user interface (UI), the primary performance bottlenecks are "Time-to-Content" and "Time-to-Action" caused by external network requests and heavy spreadsheet editor UIs. Inlining high-value data segments (e.g., Top 5 Leads) and providing a "Fast View" link (~9KB pubhtml vs ~300KB+ full editor) eliminates these bottlenecks.
+**Action:** Always provide a zero-latency 'Quick Preview' table in the README and prioritize lightweight 'pubhtml' exports for read-only data access.
