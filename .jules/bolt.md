@@ -1,0 +1,3 @@
+## 2026-05-01 - Optimizing README for TTC and TTA in Documentation-Centric Repos
+**Learning:** In repositories where the README acts as the primary interface, performance should be measured by Time-to-Content (TTC) and Time-to-Action (TTA). Inlining high-value data previews (zero-latency) and providing "Fast View" links (pubhtml) reduces initial payloads by ~97% (from ~300KB to ~9KB). Additionally, incorporating `mailto:` links directly into data previews significantly reduces TTA by enabling immediate outreach without further navigation.
+**Action:** Prioritize payload reduction and zero-latency data discovery in README-first projects. Use protocol-specific links (mailto, tel) to minimize the steps between discovery and action.
