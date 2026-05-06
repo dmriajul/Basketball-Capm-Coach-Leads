@@ -1,0 +1,3 @@
+## 2026-05-06 - Documentation-as-UI Micro-UX
+**Learning:** In documentation-centric repositories where the README.md acts as the primary User Interface (UI), micro-UX improvements should prioritize layout structure, thematic visual cues (emojis), and accessibility features like `<abbr>` tags for industry-specific acronyms. This dual approach improves screen reader context while enabling rapid visual scanning for sighted users.
+**Action:** Use structured tables with `<abbr>` tags and thematic icons (e.g., 🏀, 🎓) when presenting datasets in README files to enhance both accessibility and "Time-to-Content" (TTC).
