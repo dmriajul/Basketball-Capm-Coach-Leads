@@ -1,0 +1,3 @@
+## 2026-05-04 - Hot Loop Bypass for Sparse Datasets
+**Learning:** In high-throughput CSV processing, the overhead of function calls (even with `lru_cache`) for empty or placeholder values can be significant when datasets are sparse. Bypassing these calls with simple conditional checks in the hot loop provides a measurable efficiency boost by reducing stack frame management and redundant logic execution.
+**Action:** Always evaluate if frequent "no-op" or "placeholder" values can be handled via fast-path conditional bypasses before entering specialized cleaning functions in performance-critical loops.
