@@ -1,0 +1,3 @@
+## 2026-05-23 - TTC/TTA Strategy for Documentation-as-UI
+**Learning:** In documentation-only repositories, the README.md is the primary user interface. Optimizing for "Time-to-Content" (TTC) and "Time-to-Action" (TTA) provides the most significant performance gains. Using the Google Sheets `pubhtml` export (~9KB) instead of the full editor UI (~300KB+) reduces the initial data access payload by ~97%, significantly improving TTC on low-bandwidth connections.
+**Action:** Always provide a "Fast View" link to `pubhtml` and inline critical data (like Top 5 leads) directly in the README to achieve zero-latency access to the most frequent user actions.
