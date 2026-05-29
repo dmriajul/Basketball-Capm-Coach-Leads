@@ -1,0 +1,3 @@
+## 2026-05-27 - Documentation-as-UI Performance Strategy
+**Learning:** In documentation-only repositories, the README.md serves as the primary User Interface. Traditional performance metrics like bundle size or query latency are replaced by Time-to-Content (TTC) and Time-to-Action (TTA). Providing a direct 'Fast View' link to a Google Sheets 'pubhtml' export (~9KB) reduces the initial data access payload by ~97% compared to the full spreadsheet editor UI (~300KB+).
+**Action:** Prioritize inlined previews and lightweight 'Fast View' links to minimize TTC and TTA for users accessing external datasets.
