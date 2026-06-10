@@ -1,0 +1,3 @@
+## 2026-06-01 - [Top 5 Leads Table Pattern]
+**Learning:** In documentation-as-UI repositories, inlining the top 5 leads with emoji-prefixed contact links and semantic `<abbr>` tags significantly reduces Time-to-Action (TTA) and improves accessibility compared to providing only a raw CSV or a generic external link.
+**Action:** Always implement a 'Top 5' or 'Featured' preview table when the primary data source is an external spreadsheet or large CSV.
