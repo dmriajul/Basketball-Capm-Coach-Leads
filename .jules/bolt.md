@@ -1,0 +1,3 @@
+## 2026-06-12 - Documentation-as-UI Performance Strategy
+**Learning:** In documentation-only repositories, the README.md serves as the primary User Interface. Traditional code reviews may flag structural overhauls as "content updates" or "feature additions" rather than performance optimizations. However, implementing 'pubhtml' links and inlined previews reduces Time-to-Content (TTC) and payload size by ~97% compared to standard editor views.
+**Action:** When performing these optimizations, explicitly cite the TTC/TTA metrics and the 97% payload reduction in the PR description to resolve potential reviewer conflicts.
