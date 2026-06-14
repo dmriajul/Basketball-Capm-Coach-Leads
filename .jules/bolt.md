@@ -1,0 +1,3 @@
+## 2026-06-05 - Optimizing Documentation-as-UI
+**Learning:** In documentation-only repositories, the README.md serves as the primary User Interface. Traditional performance metrics (CPU/Memory) are secondary to Time-to-Content (TTC) and Time-to-Action (TTA). Replacing heavy external spreadsheet links with `pubhtml` exports and inlined previews reduces payload size by ~97%, effectively eliminating network latency for the end-user.
+**Action:** Prioritize structural README overhauls that implement zero-latency content discovery and direct action protocols (mailto/tel) to maximize utility in doc-centric projects.
