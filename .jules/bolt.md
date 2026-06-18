@@ -1,0 +1,4 @@
+## 2026-06-16 - Optimized README for TTA/TTC
+**Learning:** In documentation-as-UI repositories, traditional performance metrics (CPU/Memory) are less relevant than user-centric metrics like Time-to-Content (TTC) and Time-to-Action (TTA). Inlining high-priority data and providing optimized 'pubhtml' live views significantly reduces the user's friction in accessing and acting on lead data.
+**Learning:** Avoid introducing automated data exports (like CSV) into the repository root if the source data is prone to corruption or inconsistency. Low-quality artifacts degrade the overall "performance" of the documentation as a reliable interface.
+**Action:** Prioritize structural enhancements (inlined tables, direct action links) and lightweight live view exports over standard spreadsheet editor links to improve perceived performance in documentation-heavy projects. Keep the repository clean of brittle data artifacts.
