@@ -1,0 +1,3 @@
+## 2026-06-21 - Optimizing Documentation-only Repositories
+**Learning:** In repositories consisting only of documentation (like a README.md), standard "code" performance metrics don't apply. Instead, optimization should focus on Time-to-Content (TTC) and Time-to-Action (TTA). Providing inlined, high-priority data prevents users from having to navigate to external, heavy assets (like spreadsheet editors) which can be over 300KB and have high latency.
+**Action:** Use scannable tables, semantic tags (<abbr>, <kbd>), and direct action links (mailto:, tel:) to minimize TTA in documentation-as-UI. Always verify the current roster (e.g., June 2026) to ensure data accuracy over outdated local artifacts.
