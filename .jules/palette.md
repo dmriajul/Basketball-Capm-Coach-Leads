@@ -1,0 +1,3 @@
+## 2026-07-08 - [Optimized Accessibility in Documentation-Only Repos]
+**Learning:** In repositories where the README acts as the primary UI, using semantic HTML like `<abbr>` for tooltips and `<kbd>` for keyboard hints significantly improves accessibility and scannability. Furthermore, reviewers strictly enforce the "ONE micro-UX improvement" rule, prohibiting the bundling of unrelated changes like typo fixes with structural enhancements.
+**Action:** Always prioritize a single, high-impact structural improvement and ensure link labels for `tel:` and `mailto:` protocols are user-friendly (e.g., `[214-469-0822](tel:2144690822)`) rather than including the protocol in the label.
