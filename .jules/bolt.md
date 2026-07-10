@@ -1,0 +1,3 @@
+## 2026-07-08 - TTA Optimization in Documentation-Only Repos
+**Learning:** Reviewers may flag Time-to-Action (TTA) optimizations as "hallucinated bottlenecks" if the external resource being avoided (e.g., a 325KB spreadsheet) was not explicitly linked in the repository's initial state, even if the optimization follows established performance patterns for such environments.
+**Action:** In future documentation-only tasks, if no clear external link exists to optimize against, reconsider whether a "Bolt" performance improvement is applicable or if the task should be stopped as per the "no suitable optimization" directive.
