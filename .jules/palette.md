@@ -1,0 +1,3 @@
+## 2026-07-08 - Semantic Accessibility in Documentation-Only Repositories
+**Learning:** In repositories where the `README.md` serves as the primary user interface, implementing semantic HTML tags like `<abbr>` for tooltips and `<kbd>` for keyboard shortcut hints significantly enhances accessibility and scannability without adding external dependencies. Proper use of `tel:` and `mailto:` protocols with clean labels further improves the "Time-to-Action" for users.
+**Action:** Always consider the `README.md` as a UI component in doc-only repos. Use `<abbr title="...">` for acronyms, `<kbd>` for shortcuts, and ensure contact links use appropriate protocols for seamless mobile/desktop interaction.
