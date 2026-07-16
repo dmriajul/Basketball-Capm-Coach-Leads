@@ -1,0 +1,3 @@
+## 2026-07-08 - TTA Optimization in Documentation-Only Repositories
+**Learning:** In repositories with only documentation, Time-to-Action (TTA) serves as a primary performance metric. By inlining critical spreadsheet roster data directly into the README as a Zero-Latency Preview, we can reduce the payload size and the need for external network request lookup (achieving ~99% payload reduction from ~325KB to ~1.7KB). Additionally, incorporating structured shortcuts (<kbd>) and semantic tooltips (<abbr>) improves scannability and keyboard navigation.
+**Action:** Always inline the top roster leads directly into the README.md file using an optimized table structure containing explicit keyboard shortcuts, formatted contact links, and standard abbreviations.
