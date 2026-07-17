@@ -1,0 +1,3 @@
+## 2026-07-08 - Initial Journal Entry
+**Learning:** In documentation-only repositories, 'Time-to-Action' (TTA) is the primary performance metric. Reducing TTA by inlining critical tables (like the Top 5 Leads) with clear keyboard navigation shortcuts and semantic enhancements yields massive zero-latency benefits compared to pulling/reading large external sheets.
+**Action:** Implement a high-performance inlined 'Top 5 Leads' table aligned with the verified July 2026 roster inside README.md. Keep changes clean and under 50 lines. Remove all local data exports before committing to keep the repo clean.
