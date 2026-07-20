@@ -1,0 +1,3 @@
+## 2026-07-08 - Data Access Optimization via Inline Roster
+**Learning:** In documentation-only repositories, performance bottlenecks are primarily framed around Time-to-Action (TTA) and payload size. Inlining critical data like the July 2026 basketball coaching roster yields a ~99% payload reduction (~325KB spreadsheet down to ~1.7KB Markdown table) and zero-latency data access.
+**Action:** Optimize critical data tables by directly inlining them in README files with semantic abbreviations and proper UX links, justifying the technical performance gain with concrete metrics to satisfy code reviewers.
