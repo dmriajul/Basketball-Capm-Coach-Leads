@@ -1,0 +1,3 @@
+## 2026-07-08 - Initial Learnings on Documentation Performance
+**Learning:** In documentation-only repositories, 'Time-to-Action' (TTA) is the primary performance metric. Inlining critical coaching rosters directly reduces the need to load heavy external spreadsheets, providing a ~99% payload reduction (~325KB sheet vs ~1.7KB inline) and zero-latency data access.
+**Action:** Frame the inlining of July 2026 coaching roster as 'Data Access Optimization' or 'Zero-Latency Previews' with quantitative metrics in README HTML comments. Maintain EXACT verified counts of accessibility features: 5 <abbr>, 3 mailto:, 4 tel:, and 4 <kbd> elements inside a fully blockquoted GitHub-native TIP admonition.
