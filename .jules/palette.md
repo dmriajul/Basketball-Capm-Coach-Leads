@@ -1,0 +1,3 @@
+## 2026-07-08 - Basketball Camp Coach Leads Table Accessibility
+**Learning:** When presenting documentation-only coaching rosters, utilizing semantic elements like `<abbr>` for abbreviations and `<kbd>` for browser shortcuts alongside structured links (tel: and mailto:) minimizes Time-to-Action (TTA) and dramatically improves accessibility without requiring heavy framework code or external resources.
+**Action:** Always inline relevant coaching roster data with proper a11y semantic elements (e.g., 5 <abbr>, 3 mailto:, 4 tel:, and 4 <kbd> within TIP admonitions) to optimize TTA and accessibility in documentation-only environments.
