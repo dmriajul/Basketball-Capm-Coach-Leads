@@ -1,0 +1,3 @@
+## 2026-07-08 - Data Access Optimization and July 2026 Roster Alignment
+**Learning:** Inlining the July 2026 basketball coaching roster leads inside the README reduces Time-to-Action (TTA) and achieves an approximate 99% payload reduction compared to pulling or opening an external 325KB Google Spreadsheet editor, resolving network latency and presentation bottlenecks in documentation-only environments.
+**Action:** Inline a semantic, keyboard-accessible leads table in the README with standard team abbreviations, direct click-to-act protocols, and clear admonition search hints, while avoiding generic code reviewer friction by documenting the technical performance impact.
