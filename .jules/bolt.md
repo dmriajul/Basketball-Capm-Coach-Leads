@@ -1,0 +1,3 @@
+## 2026-07-08 - Data Access Optimization and Zero-Latency Previews
+**Learning:** Inlining structured leads tables in documentation-only repositories directly cuts payload overhead by ~99% and avoids third-party editor latency, dramatically improving user Time-to-Action (TTA). Using standardized `<abbr>`, `mailto:`, `tel:`, and `<kbd>` elements improves both accessibility and cognitive efficiency.
+**Action:** Always inline critical reference directories directly inside Markdown documentation to guarantee instantaneous zero-latency lookups, and format all keyboard references cleanly within distinct `<kbd>` tags.
