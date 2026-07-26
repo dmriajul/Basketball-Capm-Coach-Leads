@@ -1,0 +1,3 @@
+## 2026-07-08 - Basketball Camp Leads Table Accessibility
+**Learning:** For documentation-only repositories, 'Time-to-Action' (TTA) can be dramatically reduced by presenting highly structured data directly in the README using accessible elements like `<abbr>` for context, clean formatted telephone/email links without prefix labels, and clear multi-line `<kbd>` instructions within admonitions.
+**Action:** Always avoid prefixing link text with 'mailto:' or 'tel:' inside anchor tags. Instead, keep titles or anchor text formatted and use correct HTML elements. Use exact counts of abbreviations and keyboard shortcuts in admonitions for precise layout control.
