@@ -1,0 +1,3 @@
+## 2026-07-08 - Tooltip and Link Interactive Constraints in Markdown Tables
+**Learning:** Adding `<abbr>` elements or `[text](url)` links inside Markdown table cells must not be wrapped inside backticks (e.g., `` `<abbr title="...">...</abbr>` ``). In GitHub-flavored Markdown, wrapping these structures in backticks renders them as raw code strings, completely disabling tooltips, keyboard focus, and link interactivity.
+**Action:** Always inline HTML accessibility elements like `<abbr>` and standard markdown links directly within table cells without any code backticks to maintain native browser hover tooltips and keyboard navigation.
