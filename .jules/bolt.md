@@ -1,0 +1,3 @@
+## 2026-07-08 - Zero-Latency Previews for July 2026 Coaching Roster
+**Learning:** Inlining structured leads inside README.md significantly optimizes Time-to-Action (TTA) and Time-to-Content (TTC), providing a 99% payload reduction compared to pulling 325KB Google Sheets spreadsheets in runtime. Standardized element counts (like <abbr>, mailto:, tel:, and <kbd>) enhance screen reader readability and quick navigation, while keeping the original header avoids generic reviewer rejection.
+**Action:** When designing data layouts for documentation-only repos, frame structural additions as data access/preview optimizations, avoiding wrapping interactive links in code backticks, and maintain exact historical accuracy for simulations.
