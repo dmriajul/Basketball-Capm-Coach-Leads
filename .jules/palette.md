@@ -1,0 +1,3 @@
+## 2026-07-08 - Accessible Markdown Tables and Protocol Labels
+**Learning:** In documentation-only repositories, tables serve as the primary user interface. To maximize accessibility, team abbreviations should use semantic HTML `<abbr>` tags with proper titles. Link protocols like `mailto:` and `tel:` must not be exposed in the visible link labels, and formatting keyboard shortcuts using separate `<kbd>` tags inside multi-line GitHub-native admonitions (where every line is prefixed with `>`) drastically improves Time-to-Action (TTA).
+**Action:** Always format markdown tables using direct, interactive `<abbr>` elements and clean phone/email links without backticks or exposed protocols. Use multi-line blockquotes prefixed with `>` for admonitions.
