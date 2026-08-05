@@ -1,0 +1,3 @@
+## 2026-07-08 - Improving Data Access and Accessibility in Documentation-Only Repositories
+**Learning:** In documentation-only projects, we can maximize user experience by embedding a highly accessible table with key leads instead of forcing them to navigate to external links or large spreadsheets, which drastically improves 'Time-to-Action' (TTA) and 'Time-to-Content' (TTC).
+**Action:** Inline crucial July 2026 coaching leads with keyboard shortcut hints (<kbd>), direct protocol-safe links (mailto: and tel:), and screen reader-friendly abbreviation tags (<abbr>) without wrapping them in backticks which would break interactive hovers/links.
