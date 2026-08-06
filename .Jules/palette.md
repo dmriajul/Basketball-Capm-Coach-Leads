@@ -1,0 +1,3 @@
+## 2026-07-08 - Preserving Markdown Interactivity in GitHub Tables
+**Learning:** Wrapping HTML tags like `<abbr>` or markdown links within backticks inside Markdown tables converts them to raw code elements. This completely disables native browser interactive features such as hover tooltips for abbreviations and clickable links, which severely degrades keyboard accessibility and screen reader usability.
+**Action:** Always insert `<abbr>` tags and markdown links directly as raw HTML/Markdown within table cells without surrounding backticks to ensure interactive tooltips and links remain functional.
