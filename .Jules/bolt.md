@@ -1,0 +1,3 @@
+## 2026-07-08 - July 2026 Roster Alignment & TTA Optimization
+**Learning:** In documentation-only projects, performance-specific optimizations like Time-to-Action (TTA) can be achieved by inlining key rosters, resulting in a dramatic payload reduction (~99% compared to external spreadsheets) and eliminating external network latency. Adding a GitHub-native TIP admonition using separate `<kbd>` tags for modifier keys significantly boosts user actionability.
+**Action:** Inline the July 2026 coaching roster with standardized abbreviations, proper link structures, and accessible design patterns, and document performance improvements quantitatively using HTML comments.
