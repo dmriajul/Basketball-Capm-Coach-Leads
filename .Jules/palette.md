@@ -1,0 +1,3 @@
+## 2026-07-08 - Accessible Acronyms and Admonition Hints in Documentation UIs
+**Learning:** In documentation-centric repositories, the README acts as the primary user interface. Using semantic `<abbr>` tags for abbreviations, direct `mailto:` and `tel:` outreach links, and standard `<kbd>` admonition hints for keyboard navigation drastically improves accessibility and Time-to-Action without cluttering raw code elements.
+**Action:** Ensure `<abbr>` tags and markdown links in tables are not wrapped in backticks so tooltips and click targets remain active, and format keyboard shortcuts using separate `<kbd>` tags.
