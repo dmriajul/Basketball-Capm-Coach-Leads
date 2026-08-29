@@ -1,0 +1,3 @@
+## 2026-07-08 - Formatting Interactive Elements in Markdown Table UIs
+**Learning:** Wrapping HTML tags (like `<abbr>`) or markdown links inside code backticks inside markdown table cells causes GitHub to render them as raw text rather than interactive elements, completely disabling tooltips and links. Furthermore, splitting keyboard shortcut hints into separate `<kbd>` tags (e.g., `<kbd>Cmd</kbd>` + `<kbd>F</kbd>`) improves visual contrast and screen reader readability.
+**Action:** Always format `<abbr>`, `mailto:`, and `tel:` tags as un-backticked HTML/Markdown within table cells to ensure active tooltips/links, and use individual `<kbd>` tags for modifier and shortcut keys in admonitions.
