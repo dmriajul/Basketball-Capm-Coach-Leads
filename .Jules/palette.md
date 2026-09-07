@@ -1,0 +1,3 @@
+## 2026-07-08 - Accessible Table Micro-UX for Documentation Repositories
+**Learning:** Adding semantic `<abbr>` tags for team abbreviations and actionable `mailto:`/`tel:` links in README markdown tables provides immediate accessibility and micro-UX improvements without breaking renderer compatibility. Additionally, using standalone `<kbd>` tags for keyboard shortcuts inside blockquotes improves readability for screen readers and keyboard users.
+**Action:** When adding structured lead data to documentation, ensure interactive links and abbreviations are never wrapped in code backticks so interactive tooltips and links remain functional.
