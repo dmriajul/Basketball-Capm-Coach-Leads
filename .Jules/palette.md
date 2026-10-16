@@ -1,0 +1,3 @@
+## 2026-07-08 - Accessible Markdown Leads Tables in Documentation Repositories
+**Learning:** In documentation-only repositories, micro-UX improvements rely on semantic HTML elements within Markdown, such as `<abbr>` for acronym clarity, `mailto:` and `tel:` links for immediate interaction, and `<kbd>` tags within admonitions for keyboard navigation shortcuts. Wrapping `<abbr>` or links in code backticks disables interactive hover tooltips and links.
+**Action:** Always render accessible elements as unformatted HTML/Markdown inside tables, ensuring direct interactivity and screen reader accessibility without code block wrapping.
